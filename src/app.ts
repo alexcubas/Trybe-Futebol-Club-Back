@@ -22,7 +22,7 @@ class App {
     };
 
     this.app.use(accessControl);
-
+    this.app.get('/', (req, res) => res.send('<h1> Executando na porta: 777 </h1>'));
     this.app.use('/login', userRouter);
     this.app.use('/teams', teamRouter);
     this.app.use('/matches', matchRouter);
