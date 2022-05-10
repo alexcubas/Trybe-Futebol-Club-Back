@@ -1,5 +1,5 @@
 build:
   docker:
     web: Dockerfile
-run:
-  web: node /build/server.js
+# run:
+#   web: node /build/server.js
