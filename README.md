@@ -14,7 +14,9 @@ Minha missão nesse projeto foi, a partir de um frontend sem lógica (apenas exi
 - Gerar leaderboards ranqueadas e ordenadas baseadas no desempenho dos clubes nas partidas cadastradas, utilizando 5 critérios avaliativos e separando em 3 tipos de classificação (geral, mandante e visitante);
 - Orquestrar tudo isso (banco de dados, backend e frontend) em containers `Docker` e executá-los de forma conjunta através de uma orquestração com `Docker-Compose`.
 
-- Além disso, a aplicação foi feita com cobertura de testes de 100% em todas as camadas utilizando Mocha,Chai e Sinon.
+- Além disso, a aplicação foi feita com cobertura de testes com mais de 90% em todas as camadas utilizando Mocha,Chai e Sinon.
+
+A aplicação pode ser acessada por [aqui](https://front-end-futebol-club.herokuapp.com/).
 
 A API pode ser acessada pela porta `3001`
 
@@ -35,7 +37,7 @@ Ps2: Para realizar o login na aplicação basta usar as seguintes credenciais:
 - Sequelize
 - Docker
 - Mocha + Chai + Sinon
-- AWS
+- Heroku
 
 #### Além das Stacks citadas acima, também foram utilizadas as seguintes bibliotecas:
 
