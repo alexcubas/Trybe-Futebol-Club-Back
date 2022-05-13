@@ -51,6 +51,7 @@ Ps2: Para realizar o login na aplicação basta usar as seguintes credenciais:
 e [Docker-Compose](https://docs.docker.com/compose/install/) instalados em sua maquina.***
 
 Obs: Docker e Docker-Compose utilizados no desenvolvimento e execução deste projeto estavam nas versões `20.10.13` e `1.29.2` respectivamente.
+Obs: Verefique a versão do seu Node, caso nao esteja na versao v16.15.0, use o comando 'nvm install --lts'
 
 Clone o projeto
 
@@ -61,33 +62,12 @@ Clone o projeto
 Entre no diretório do projeto
 
 ```bash
-  cd Futebol-Clube
+  cd Backend-Futebol
 ```
 
-Suba a orquestração de containers
+Suba a API
 
 ```bash
-  npm run compose:up
-```
-
-A API estará pronta para uso quando a saída no seu terminal ficar assim
-
-```bash
-  Creating tfc_database ... done
-  Creating tfc_backend ... done
-  Creating tfc_frontend ... done
-```
-
-A aplicação poderá ser acessada através de
-
-```bash
-  Front-end: localhost:3000
-  Back-end: localhost:3001
-```
-
-Para rodar a bateria de testes basta executar
-
-```bash
-  docker-compose exec backend npm test
+  npm start
 ```
 
