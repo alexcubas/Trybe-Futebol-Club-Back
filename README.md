@@ -16,6 +16,8 @@ Minha missão nesse projeto foi, a partir de um frontend sem lógica (apenas exi
 
 - Além disso, a aplicação foi feita com cobertura de testes com mais de 90% em todas as camadas utilizando Mocha,Chai e Sinon.
 
+![gifpronto](https://user-images.githubusercontent.com/87549119/169073511-1c422faf-1b2c-4bf1-87eb-6d5d3eec1301.gif)
+
 A aplicação pode ser acessada por [aqui](https://front-end-futebol-club.herokuapp.com/).
 
 A API pode ser acessada pela porta `3001`
