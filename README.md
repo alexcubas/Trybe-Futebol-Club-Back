@@ -36,6 +36,7 @@ Ps2: Para realizar o login na aplicação basta usar as seguintes credenciais:
 - Object-Oriented Programming
 - Express
 - MySQL
+- PostgreSQL
 - Sequelize
 - Docker
 - Mocha + Chai + Sinon
