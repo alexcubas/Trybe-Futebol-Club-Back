@@ -9,7 +9,7 @@
     "test:coverage": "nyc npm run test",
     "test:coverage:json": "nyc --reporter=json-summary npm run test",
     "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
-    "prestart": "npm run build && npm run db:reset",
+    "prestart": "npm run build",
     "start": "node .",
     "predev": "npm run build && npm run db:reset",
     "dev": "ts-node ./src/server.ts",
@@ -60,6 +60,8 @@
     "joi": "^17.6.0",
     "jsonwebtoken": "8.5.1",
     "mysql2": "2.3.3",
+    "pg": "^8.7.3",
+    "postgres": "^3.1.0",
     "sequelize": "6.9.0"
   }
 }
