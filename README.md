@@ -68,6 +68,24 @@ Entre no diretório do projeto
   cd Backend-Futebol
 ```
 
+Verefique a versão do seu Node, caso nao esteja na versao v16, use o comando:
+
+ ```bash
+nvm use v16
+```
+
+ E após a instalação, use o comando:
+
+```bash
+nvm use v16
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
 Suba a API
 
 ```bash
