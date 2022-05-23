@@ -59,13 +59,31 @@ Obs: Verefique a versão do seu Node, caso nao esteja na versao v16.15.0, use o 
 Clone o projeto
 
 ```bash
-  git clone git@github.com:alexcubas/Trybe-Futebol-Club-Back.git
+  git clone git@github.com:alexcubas/Futebol-Clube.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd Trybe-Futebol-Club-Back
+  cd Backend-Futebol
+```
+
+Verefique a versão do seu Node, caso nao esteja na versao v16, use o comando:
+
+ ```bash
+nvm use v16
+```
+
+ E após a instalação, use o comando:
+
+```bash
+nvm use v16
+```
+
+Instale as dependências
+
+```bash
+  npm install
 ```
 
 Suba a API
