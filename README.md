@@ -62,6 +62,12 @@ Clone o projeto
   git clone git@github.com:alexcubas/Trybe-Futebol-Club-Back.git
 ```
 
+Entre no diretório do projeto
+
+```bash
+  cd Trybe-Futebol-Club-Back
+```
+
 Suba a API
 
 ```bash
