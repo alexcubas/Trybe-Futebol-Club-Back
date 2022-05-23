@@ -59,13 +59,7 @@ Obs: Verefique a versão do seu Node, caso nao esteja na versao v16.15.0, use o 
 Clone o projeto
 
 ```bash
-  git clone git@github.com:alexcubas/Futebol-Clube.git
-```
-
-Entre no diretório do projeto
-
-```bash
-  cd Backend-Futebol
+  git clone git@github.com:alexcubas/Trybe-Futebol-Club-Back.git
 ```
 
 Suba a API
