@@ -5,7 +5,7 @@ const loginUser = {
 		role: "admin",
 		email: "admin@admin.com"
 	},
-	token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiYWRtaW4iLCJpYXQiOjE2NTE2NzIxMzgsImV4cCI6MTY1MTc1ODUzOH0.TWZW4e8sQeJBMnSBfrrB5l1Dd3fgjzVeKKy05raIu0I"
+	token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiYWRtaW4iLCJpYXQiOjE2NTMzNDIwNzMsImV4cCI6MTY4NDg5OTY3M30.ZysGl2cEwvkHQb0XdhctG_KghWmpLNoIZOHT8X7pBEg"
 }
 
 export {

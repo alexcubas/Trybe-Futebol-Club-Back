@@ -2,7 +2,7 @@ import { readFileSync } from 'fs';
 import * as jwt from 'jsonwebtoken';
 
 const jwtConfig = {
-  expiresIn: '1d',
+  expiresIn: '1y',
 };
 
 const SECRET = readFileSync('jwt.evaluation.key', 'utf8');

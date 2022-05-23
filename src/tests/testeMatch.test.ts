@@ -93,7 +93,7 @@ describe('testa a camada de serviceMatch post cria uma partida', () => {
   
   it('testa se retorna a partida criada', async () => {
     chaiHttpResponse = await chai.request(app).post('/matches').set({
-      authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiYWRtaW4iLCJpYXQiOjE2NTE2ODUwMzIsImV4cCI6MTY1MTc3MTQzMn0.Jy0WBSBATVY1_7L46S4yiMZNk77oOwQcystmnb1ya5E'
+      authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiYWRtaW4iLCJpYXQiOjE2NTMzNDIwNzMsImV4cCI6MTY4NDg5OTY3M30.ZysGl2cEwvkHQb0XdhctG_KghWmpLNoIZOHT8X7pBEg'
     }).send({
       "homeTeam": 8,
       "awayTeam": 1,
@@ -113,7 +113,7 @@ describe('testa a camada de serviceMatch post cria uma partida', () => {
 
   it('testa erro se os dois times forem iguais', async () => {
     chaiHttpResponse = await chai.request(app).post('/matches').set({
-      authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiYWRtaW4iLCJpYXQiOjE2NTE2ODUwMzIsImV4cCI6MTY1MTc3MTQzMn0.Jy0WBSBATVY1_7L46S4yiMZNk77oOwQcystmnb1ya5E'
+      authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiYWRtaW4iLCJpYXQiOjE2NTMzNDIwNzMsImV4cCI6MTY4NDg5OTY3M30.ZysGl2cEwvkHQb0XdhctG_KghWmpLNoIZOHT8X7pBEg'
     }).send({
       "homeTeam": 1,
       "awayTeam": 1,
@@ -134,7 +134,7 @@ describe('testa a camada de serviceMatch post cria uma partida', () => {
         .throws('error');
 
     chaiHttpResponse = await chai.request(app).post('/matches').set({
-      authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiYWRtaW4iLCJpYXQiOjE2NTE2ODUwMzIsImV4cCI6MTY1MTc3MTQzMn0.Jy0WBSBATVY1_7L46S4yiMZNk77oOwQcystmnb1ya5E'
+      authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiYWRtaW4iLCJpYXQiOjE2NTMzNDIwNzMsImV4cCI6MTY4NDg5OTY3M30.ZysGl2cEwvkHQb0XdhctG_KghWmpLNoIZOHT8X7pBEg'
     }).send({
       "homeTeam": 111,
       "awayTeam": 1,
